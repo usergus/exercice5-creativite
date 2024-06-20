@@ -21,4 +21,8 @@ def test_calculate_average():
     result = calculate_average([])
     print(f"Average of []: {result}")
     assert result == 0
+    
+    result = calculate_average([1, 2, 3])
+    print(f"Average of []: {result}")
+    assert result == 0
 
